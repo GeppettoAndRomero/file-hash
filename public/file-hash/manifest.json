@@ -1,0 +1,36 @@
+{
+  "name": "File Hash \u2014 runlocally",
+  "short_name": "File Hash",
+  "description": "Compute SHA-256, SHA-1 and MD5 for a file in your browser and compare it against an expected hash. Nothing is uploaded. Works offline.",
+  "start_url": "/file-hash/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1",
+  "scope": "/file-hash/",
+  "icons": [
+    {
+      "src": "/file-hash/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/file-hash/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}

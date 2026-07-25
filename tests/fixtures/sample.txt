@@ -1,0 +1,2 @@
+runlocally file-hash fixture — verifying SHA-256, SHA-1 and MD5 against a known tool.
+This line has unicode: こんにちは, 世界, café, naïve, 🎉.
